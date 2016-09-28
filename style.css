@@ -103,7 +103,7 @@ transition: all .25s ease-in-out;
 .desktop{display: none;}
 
 /*@media screen and (min)*/
-@media screen and (min-width: 900px) {
+@media screen and (min-width: 650px) {
   .grid-1     { width: 13.636363636364%; }
   .grid-2     { width: 30.30303030303%; }
   .grid-3,
@@ -130,6 +130,8 @@ transition: all .25s ease-in-out;
   .desktop .featured {
     margin-top: 100px;
     left: 0;
+    max-width: 969px;
+    width: 100%;
   }
   .content-pad-right {
     padding-right: 4%; /* Use (or don't) as necessary. */
